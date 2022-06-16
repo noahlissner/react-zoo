@@ -24,7 +24,7 @@ const Animals = () => {
 
     animals.map((animal) => {
       if (animal) {
-        calculateTime(animal) >= 100 && toast(`${animal.name} is hungry!`);
+        calculateTime(animal) >= 14400 && toast(`${animal.name} is hungry!`);
       }
     });
   }, []);
